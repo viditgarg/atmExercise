@@ -1,0 +1,14 @@
+Following Assumptions were made to design this application:
+
+1. assuming JDK-7 is installed on the user machine to run this application
+2. User is already having account with the bank (7 digits bank# is hypothetically chosen:1000011)
+
+3. RunATM class is created to run the code,
+	first it will create an account for 'Mr. Brown with Rs. 50000 and also set up his pin as '9876'.
+
+	so please enter this PIN when you try to run this RunATM class.
+
+
+4. I have made a little change from the description mentioned in the question -
+	I am running the same session for Mr. Brown i.e. his balance will be updated with the deposits and withdrawal requests until
+	a letter other than ('D','d','w','W') is pressed.
